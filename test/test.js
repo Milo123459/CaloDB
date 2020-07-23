@@ -1,4 +1,5 @@
 const Calo = require('../dist/Main');
-new Calo({
+const CaloServer = new Calo({
     password: `hi`,
-}).start()
+});
+CaloServer.start();
