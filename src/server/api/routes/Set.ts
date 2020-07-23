@@ -1,7 +1,7 @@
-import Express from "express";
+import { Request, Response } from "express";
 export = {
     route: `/set`,
-    run: (req: Express.Request, res: Express.Response) => {
+    run: (req: Request, res: Response) => {
         console.log(req.headers)
     },
     method: `post`

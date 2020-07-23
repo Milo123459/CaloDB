@@ -1,7 +1,0 @@
-"use strict";
-const fs_1 = require("fs");
-const path_1 = require("path");
-module.exports = () => {
-    return fs_1.readdirSync(path_1.join(__dirname, `routes`));
-};
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiSGFuZGxlci5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9zZXJ2ZXIvYXBpL0hhbmRsZXIudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBLDJCQUFpQztBQUNqQywrQkFBNEI7QUFDNUIsaUJBQVMsR0FBRyxFQUFFO0lBQ1YsT0FBTyxnQkFBVyxDQUFDLFdBQUksQ0FBQyxTQUFTLEVBQUUsUUFBUSxDQUFDLENBQUMsQ0FBQztBQUNsRCxDQUFDLENBQUEiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyByZWFkZGlyU3luYyB9IGZyb20gXCJmc1wiO1xyXG5pbXBvcnQgeyBqb2luIH0gZnJvbSBcInBhdGhcIjtcclxuZXhwb3J0ID0gKCkgPT4ge1xyXG4gICAgcmV0dXJuIHJlYWRkaXJTeW5jKGpvaW4oX19kaXJuYW1lLCBgcm91dGVzYCkpO1xyXG59Il19
