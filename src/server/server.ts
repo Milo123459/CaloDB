@@ -1,10 +1,8 @@
 import express from "express";
 import Handler from "./api/Handler";
 import { join } from "path";
-import bodyParser from "body-parser";
-import Main from "../Main";
 const app: express.Application = express();
-app.use(bodyParser.json()); 
+app.use(express.json()); 
 interface MainOptions {
     port?: number | string;
     password: string;
